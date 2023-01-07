@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #1b1c27;
+    color: white;
+}
+
+.App {
+    height: 80vh;
+    margin: auto 50px;
+    border: gray solid 1px;
+}
+
+.point {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3d7bfa;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.btn button {
+    border-radius: 10px;
+    background-color: #3d7bfa;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #0150f0;
+}
+
+.btn #clear {
+    background-color: #f74610;
+}
+
+.btn #clear:hover {
+    background-color: #ff3c00;
+}
+
+.footer {
+    padding: 30px;
+}
+
+.footer,
+.footer a {
+    text-align: center;
+    color: #3d7bfa;
+}
